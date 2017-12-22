@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.actividad5.MainActivity">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="482dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="14dp"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/textoid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Contador : 0"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/sumarbutton"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:text="SUMAR" />
+
+        <Button
+            android:id="@+id/restarbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:text="RESTAR" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
